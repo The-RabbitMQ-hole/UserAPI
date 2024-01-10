@@ -1,7 +1,7 @@
-package com.edapoc.zlm.crmuserapi.service;
+package com.edapoc.zlm.coreuserapi.service;
 
-import com.edapoc.zlm.crmuserapi.model.User;
-import com.edapoc.zlm.crmuserapi.repository.UserRepository;
+import com.edapoc.zlm.coreuserapi.model.User;
+import com.edapoc.zlm.coreuserapi.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

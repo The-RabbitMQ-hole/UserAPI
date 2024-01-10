@@ -1,4 +1,4 @@
-package com.edapoc.zlm.crmuserapi.config;
+package com.edapoc.zlm.coreuserapi.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
@@ -41,7 +41,7 @@ public class OpenAPIConfig {
         .title("User Management API")
         .version("1.0")
         .contact(contact)
-        .description("This API exposes endpoints to manage users of the CRM application.").termsOfService("https://www.zlm.nl/voorwaarden")
+        .description("This API exposes endpoints to manage users of the Core application.").termsOfService("https://www.zlm.nl/voorwaarden")
         .license(mitLicense);
 
     return new OpenAPI().info(info).servers(List.of(devServer, prodServer));

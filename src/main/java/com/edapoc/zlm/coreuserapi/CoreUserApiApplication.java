@@ -1,13 +1,13 @@
-package com.edapoc.zlm.crmuserapi;
+package com.edapoc.zlm.coreuserapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrmUserApiApplication {
+public class CoreUserApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CrmUserApiApplication.class, args);
+        SpringApplication.run(CoreUserApiApplication.class, args);
     }
 
 }

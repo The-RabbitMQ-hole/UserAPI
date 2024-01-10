@@ -1,8 +1,8 @@
-package com.edapoc.zlm.crmuserapi.controller;
+package com.edapoc.zlm.coreuserapi.controller;
 
-import com.edapoc.zlm.crmuserapi.ResponseHandler;
-import com.edapoc.zlm.crmuserapi.model.User;
-import com.edapoc.zlm.crmuserapi.service.UserService;
+import com.edapoc.zlm.coreuserapi.ResponseHandler;
+import com.edapoc.zlm.coreuserapi.model.User;
+import com.edapoc.zlm.coreuserapi.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

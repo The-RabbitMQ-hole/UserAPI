@@ -1,4 +1,4 @@
-package com.edapoc.zlm.crmuserapi.model;
+package com.edapoc.zlm.coreuserapi.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "crm_user")
+@Table(name = "core_user")
 public class User {
 
     @Id
