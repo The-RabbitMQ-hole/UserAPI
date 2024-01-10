@@ -1,10 +1,10 @@
-package com.edapoc.zlm.coreuserapi;
+package com.edapoc.zlm.userapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CoreUserApiApplicationTests {
+class UserApiApplicationTests {
 
     @Test
     void contextLoads() {

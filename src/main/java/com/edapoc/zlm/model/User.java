@@ -1,4 +1,4 @@
-package com.edapoc.zlm.coreuserapi.model;
+package com.edapoc.zlm.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

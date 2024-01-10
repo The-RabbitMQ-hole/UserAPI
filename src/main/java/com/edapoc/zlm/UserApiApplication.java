@@ -1,13 +1,13 @@
-package com.edapoc.zlm.coreuserapi;
+package com.edapoc.zlm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CoreUserApiApplication {
+public class UserApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CoreUserApiApplication.class, args);
+        SpringApplication.run(UserApiApplication.class, args);
     }
 
 }

@@ -1,4 +1,4 @@
-package com.edapoc.zlm.coreuserapi;
+package com.edapoc.zlm;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

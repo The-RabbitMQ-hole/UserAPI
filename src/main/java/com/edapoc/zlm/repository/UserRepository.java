@@ -1,6 +1,6 @@
-package com.edapoc.zlm.coreuserapi.repository;
+package com.edapoc.zlm.repository;
 
-import com.edapoc.zlm.coreuserapi.model.User;
+import com.edapoc.zlm.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

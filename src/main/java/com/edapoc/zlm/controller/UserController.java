@@ -1,8 +1,8 @@
-package com.edapoc.zlm.coreuserapi.controller;
+package com.edapoc.zlm.controller;
 
-import com.edapoc.zlm.coreuserapi.ResponseHandler;
-import com.edapoc.zlm.coreuserapi.model.User;
-import com.edapoc.zlm.coreuserapi.service.UserService;
+import com.edapoc.zlm.ResponseHandler;
+import com.edapoc.zlm.model.User;
+import com.edapoc.zlm.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Tag(name = "User", description = "User management APIs")
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "http://localhost:8084")
 @RestController
 @RequestMapping("/api")
 public class UserController {
